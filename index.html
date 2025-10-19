@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر لورين للجمال</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #ffc0cb);
+      color: #4a004a;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff69b4, #ff1493);
+      color: white;
+      padding: 30px 0;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #d63384;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 280px;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      color: #d63384;
+      margin-bottom: 10px;
+    }
+
+    .product p {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    .testimonial {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 10px auto;
+      width: 80%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #4a004a;
+    }
+
+    .social-links {
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #4a004a;
+      font-weight: bold;
+    }
+
+    .social-links a:hover {
+      color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+
+  <header>متجر لورين للجمال</header>
+
+  <section>
+    <h2 class="section-title">من نحن</h2>
+    <p>متجر لورين للجمال يقدم لكِ منتجات طبيعية مختارة بعناية للعناية بالبشرة والشعر. هدفنا هو إبراز جمالك الطبيعي بكل حب ونعومة.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">منتجاتنا</h2>
+    <div class="container">
+      <div class="product">
+        <img src="images/argan.jpg" alt="زيت الأرغان المغربي">
+        <h3>زيت الأرغان المغربي</h3>
+        <p>يغذي الشعر ويمنحه لمعاناً طبيعياً.</p>
+        <a class="whatsapp-button" href="https://wa.me/963985593002?text=أرغب بشراء زيت الأرغان المغربي">اطلب عبر واتساب</a>
+      </div>
+
+      <div class="product">
+        <img src="images/coconut.jpg" alt="زيت جوز الهند الطبيعي">
+        <h3>زيت جوز الهند الطبيعي</h3>
+        <p>يرطب فروة الرأس ويقوي الشعر من الجذور.</p>
+        <a class="whatsapp-button" href="https://wa.me/963985593002?text=أرغب بشراء زيت جوز الهند الطبيعي">اطلب عبر واتساب</a>
+      </div>
+
+      <div class="product">
+        <img src="images/aloe.jpg" alt="كريم الألوفيرا لترطيب البشرة">
+        <h3>كريم الألوفيرا لترطيب البشرة</h3>
+        <p>يمنح بشرتك ترطيباً عميقاً وانتعاشاً يدوم طويلاً.</p>
+        <a class="whatsapp-button" href="https://wa.me/963985593002?text=أرغب بشراء كريم الألوفيرا">اطلب عبر واتساب</a>
+      </div>
+
+      <div class="product">
+        <img src="images/papaya-cream.jpg" alt="كريم البابايا لتفتيح البشرة">
+        <h3>كريم البابايا لتفتيح البشرة</h3>
+        <p>يساعد على توحيد لون البشرة ويمنحها إشراقة طبيعية.</p>
+        <a class="whatsapp-button" href="https://wa.me/963985593002?text=أرغب بشراء كريم البابايا">اطلب عبر واتساب</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">آراء العملاء</h2>
+    <div class="testimonial">
+      <p>🌟 "منتجات رائعة! زيت الأرغان فعلاً غير شعري للأفضل." – سارة من دمشق</p>
+    </div>
+    <div class="testimonial">
+      <p>🌟 "كريم الألوفيرا منع جفاف بشرتي تماماً. شكراً لورين!" – ريم من اللاذقية</p>
+    </div>
+  </section>
+
+  <footer>
+    جميع الحقوق محفوظة © متجر لورين للجمال 2025
+    <div class="social-links">
+      تابعونا على:
+      <a href="https://www.instagram.com/makera_lama?igsh=ZnFrNmJzOWl3dGg0" target="_blank">إنستغرام</a> |
+      <a href="https://www.facebook.com/share/1FZVvnvrXc/" target="_blank">فيسبوك</a>
+    </div>
+  </footer>
+
+</body>
+</html>
